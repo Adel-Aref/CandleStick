@@ -1,0 +1,39 @@
+Version 1.0
+
+* full description for my solution 
+ 
+
+- written in swift 
+- use configuration like dev , QC and production.
+- abstracted network layer.
+- Caching strategy.
+- MVVM architecture pattern.
+- RxSwift and RxCooca for handle data binding -> note that I can use delegation or completion handler also but I want to show that I can use RX of reactivity.
+- design system for fonts and create basic components like AbjjadLabel
+- I used R pod to handle resources like colors, fonts and nibs files with more safe and fast methodology.
+- I used colors assets to handle the colors from the ui also with reusable method.
+- I handled loading and error states.
+- I added simple unit test for currencies screen for robust app.
+- for the Crashlytics and analytics to be honest I don't have time to implement them but I have the experience with this great topic.  
+- I used MVVM architecture with RxSwift data binding 
+
+
+* outstanding tasks  
+   
+ 1- currencies screen like design and business logic
+ 2- Candle chart but I it has issue with expanding and shrink candles 
+
+* difficulties
+
+Expanding, shrinking candles.
+
+* Decomposition
+
+I divided the task to three user story as the following 
+
+1- adding codebase and structure like networking, loading , error , configuration files and so on, with initial time two and half hours.
+2- currency screen ui and implementation with initial time one hour.
+3- chart screen ui and call api initial time three hours.
+
+
+Please note that for the git maintains I didn't take my attention that you need git maintenance and history.

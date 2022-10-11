@@ -1,0 +1,16 @@
+//
+//  Developement.xcconfig
+//  CandleStick
+//
+//  Created by Adel Aref on 10/10/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-CandleStick/Pods-CandleStick.development.xcconfig"
+// Server URL we will update this values as received from backend team
+Base_URL = https:/$()/fapi.binance.com/fapi/v1
+
+// App Settings
+APP_NAME = CandleStick (dev)
+APP_BUNDLE_ID = com.Abjjad.CandleStick

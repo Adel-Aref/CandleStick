@@ -1,0 +1,6 @@
+framework module Pods_CandleStickTests {
+  umbrella header "Pods-CandleStickTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
